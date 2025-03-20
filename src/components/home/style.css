@@ -771,41 +771,23 @@ body.modal-open {
 
 .partners-tape-wrapper {
   margin-top: 80px;
-  /* background-color: red; */
   padding: 10px 0;
   overflow: clip;
   -webkit-mask: linear-gradient(to right, transparent, white 10%, white 90%, transparent);
-  /* mask: linear-gradient(to right, transparent, white 10%, white 90%, transparent); */
-}
-
-
-.partners-tape-container {
-  display: inline-flex;
-  align-items: center;
-
-  gap: 68px;
-  /* background-color: red; */
-  padding-right: 68px;
-  animation: scrollInfinite 10s linear infinite;
-
-  white-space: nowrap;
-  width: max-content;
-  /* min-width: 100vw; */
-  /* will-change: transform; */
+  mask: linear-gradient(to right, transparent, white 10%, white 90%, transparent);
 }
 
 
 .partner {
   pointer-events: none;
+  margin-right: 68px;
 }
+
 .partner img {
   max-width: 140px;
   height: auto;
   pointer-events: none;
   user-select: none;
-/* 
-  backface-visibility: hidden;
-  -webkit-backface-visibility: hidden; */
   will-change: transform;
 }
 
