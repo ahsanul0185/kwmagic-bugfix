@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react'
+import React, { Fragment, useEffect } from 'react'
 import "./style.css"
 import partner_1 from "../../assets/featured-logos/logo1.png"
 import partner_2 from "../../assets/featured-logos/logo2.png"
@@ -34,7 +34,9 @@ const partners = [
     },
 ]
 
+
 const PartnersTape = () => {
+
 
   return (
       <div className='partners-tape-wrapper'>
@@ -54,5 +56,6 @@ const PartnersTape = () => {
     </div>
   )
 }
+
 
 export default PartnersTape

@@ -1,6 +1,6 @@
 import React from 'react'
 import "./style.css"
-import img_local_traffic from "../../assets/img-local-traffic.png"
+import img_local_traffic from "../../assets/img-local-traffic-upscalled.png"
 import icon_tick from "../../assets/icon-tick.svg"
 import { useNavigate } from 'react-router-dom'
 

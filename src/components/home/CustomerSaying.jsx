@@ -45,6 +45,13 @@ function CustomerSaying() {
           slidesToShow: 1,
         },
       },
+      {
+        breakpoint: 540,
+        settings: {
+          slidesToShow: 1,
+          centerMode :false
+        },
+      }
     ],
   };
 
