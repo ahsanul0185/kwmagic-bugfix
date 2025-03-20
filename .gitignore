@@ -1,0 +1,39 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# Build output
+dist/
+build/
+.next/
+.out/
+
+# Vercel and Netlify
+.vercel/
+.netlify/
+
+# Logs
+logs/
+*.log
+yarn-debug.log*
+pnpm-debug.log*
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Cache files
+.cache/
+coverage/
+
+# MacOS and system files
+.DS_Store
+Thumbs.db
