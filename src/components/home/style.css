@@ -589,6 +589,7 @@ li {
 
 .mobile-step-card {
   padding-top: 50px;
+  margin-left: -1px;
 }
 
 .step-card {

@@ -4,6 +4,7 @@ import img_1 from "../../assets/img-mastering-seo.jpg";
 import img_2 from "../../assets/img-ppc-vs-seo.jpg";
 import img_3 from "../../assets/img-content-marketing.jpg";
 import BlogCard from "./BlogCard";
+import ScrollToTop from "../ScrollToTop"
 
 const blogList = [
   {
@@ -30,6 +31,8 @@ const blogList = [
 const Blogs = () => {
   
   return (
+    <>
+      <ScrollToTop/>
     <div className="blogs-container">
       <h2 className="secondary-heading blogs-page-title" data-aos="fade" data-aos-once="true">Blogs</h2>
 
@@ -45,6 +48,7 @@ const Blogs = () => {
         ))}
       </div>
     </div>
+    </>
   );
 };
 

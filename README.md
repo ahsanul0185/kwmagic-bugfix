@@ -12,4 +12,6 @@ Currently, two official plugins are available:
 Dashboard.jsx line 334, origin : "!loading && data &&"
 - Filters.jsx line 91 : comment out
 
-- issue in exact location select option
+- preload country icons and remove stratching
+- blog insight size adjustment
+- 
