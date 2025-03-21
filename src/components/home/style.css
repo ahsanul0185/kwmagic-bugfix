@@ -238,6 +238,7 @@ tr:hover {
   text-align: left;
   color: white;
   text-align: center;
+  white-space: nowrap;
 }
 
 .seo-made-easy-description {
