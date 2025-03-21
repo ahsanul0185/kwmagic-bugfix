@@ -307,6 +307,19 @@ function Dashboard() {
   }, [])
   
 
+    // Function to preload the flag icons
+    const preloadImages = (countryIcons) => {
+      countryIcons.forEach((icon) => {
+        const img = new Image();
+        img.src = `https://flagcdn.com/16x12/${icon}.png`;
+      });
+    };
+
+    useEffect(() => {
+      const icons = countries.map((country) => country.icon); // Collect all icons
+      preloadImages(icons);
+    }, []);
+
 
   return (
     <div className="dashbord-container">
