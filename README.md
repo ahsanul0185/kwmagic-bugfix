@@ -8,6 +8,8 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
 
- i changed AuthContext.jsx 23 line from setIsLoggedIn(false); to setIsLoggedIn(true);
- Dashboard.jsx line 334, origin : "!loading && data &&"
- Filters.jsx line 91 : comment out
+- i changed AuthContext.jsx 23 line from setIsLoggedIn(false); to setIsLoggedIn(true);
+Dashboard.jsx line 334, origin : "!loading && data &&"
+- Filters.jsx line 91 : comment out
+
+- issue in exact location select option

@@ -209,7 +209,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 5px;
+  margin-top: 10px;
   color: #e7dfed;
 }
 
@@ -286,6 +286,7 @@
   width: calc(100% - 45px);
   overflow: hidden;
 }
+
 
 .icon-dropdown{
   position: absolute;

@@ -4,6 +4,7 @@
   position: relative;
   z-index: 1;
   padding-bottom: 96px;
+
 }
 
 .trends-container h1 {
@@ -54,22 +55,24 @@
 }
 
 /* Scrollable container setup (top to bottom scroll) */
+
 .trend-list {
   overflow-y: auto;
-  scroll-behavior: smooth;
+  scroll-behavior: auto;
   display: flex;
   flex-direction: column;  /* Stack items vertically */
   justify-content: flex-start;
   touch-action: auto;
   margin-top: 20px;
   position: relative;
-  max-height: 300px; /* Limit the height to show only 3 items */
+  max-height: 550px; /* Limit the height to show only 3 items */
   padding: 10px 0;
   gap: 10px;  /* Space between items */
   -webkit-overflow-scrolling: touch;
   mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 10%, rgba(0, 0, 0, 1) 50%, rgba(0, 0, 0, 0) 90%);
   -webkit-mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 10%, rgba(0, 0, 0, 1) 50%, rgba(0, 0, 0, 0) 90%); /* For Safari */
 }
+
 
 /* Hide scrollbar but keep scrolling enabled */
 .trend-list::-webkit-scrollbar {
@@ -122,6 +125,12 @@
 }
 
 @media (max-width: 768px) {
+  .trends-container h1 {
+    font-size: 22px;
+  }
+  .live{
+    transform: scale(0.8);
+  }
   .beta-banner {
     text-align: center;
     color: #ff0000;

@@ -28,7 +28,7 @@ const blogList = [
 
 
 const Blogs = () => {
-
+  
   return (
     <div className="blogs-container">
       <h2 className="secondary-heading blogs-page-title" data-aos="fade" data-aos-once="true">Blogs</h2>

@@ -338,7 +338,7 @@ function Dashboard() {
           </label>
 
           <div ref={dropdownRef} className="exact-country-dropdown-container" >
-            <div className="exact-country-dropdown" onClick={() => setShowCountryList(prev => !prev)} value={exactCountry.name} >{exactCountry.icon && <img src={`https://flagcdn.com/16x12/${exactCountry.icon}.png`} alt="" />} <p>{exactCountry.name}</p> <img className="icon-dropdown" src={icon_angle_down}/></div>
+            <div className="exact-country-dropdown" onClick={() => setShowCountryList(prev => !prev)} value={exactCountry.name} >{exactCountry.icon && <img src={`https://flagcdn.com/16x12/${exactCountry.icon}.png`} alt="" />} <p style={{width : `${exactCountry.icon ? "" : "calc(100% - 20px)"}`}}>{exactCountry.name}</p> <img className="icon-dropdown" src={icon_angle_down}/></div>
 
             {showCountryList && <ul className="exact-country-dropdown-list">
               <li onClick={() => {setExactCountry({code : "", name : "Exact Location", icon : ""}); setShowCountryList(false)}}>Exact Location</li>

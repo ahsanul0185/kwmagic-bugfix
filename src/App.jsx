@@ -20,6 +20,7 @@ import PaymentCancel from "./components/PaymentCancel";
 import AuthProvider from './contexts/AuthContext';
 import NotFound from "./components/NotFound";
 import Blogs from './components/blog/Blogs';
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   useEffect(() => {
@@ -31,6 +32,7 @@ function App() {
     <AuthProvider>
       <BrowserRouter>
         <BodyWrapper>
+          <ScrollToTop/>
           <Navbar login={false} />
           <Routes>
             <Route path="/" element={<Home />} />
