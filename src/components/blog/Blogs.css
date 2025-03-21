@@ -1,5 +1,6 @@
 .blogs-container {
     width: 79%;
+    min-height: fit-content;
     margin: 0 auto;
     position: relative;
     z-index: 1;
