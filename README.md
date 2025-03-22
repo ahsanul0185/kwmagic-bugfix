@@ -14,3 +14,5 @@ Dashboard.jsx line 334, origin : "!loading && data &&"
 
 - reload not fixed in ios
 - blog insight size adjustment
+- remove trending words
+- preload font

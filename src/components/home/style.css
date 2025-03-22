@@ -233,7 +233,8 @@ tr:hover {
 
 .seo-made-easy-heading {
   font-size: 72px;
-  font-weight: 800;
+  font-family: "Rubik Maps", system-ui;
+  font-weight: 400;
   line-height: 86.4px;
   text-align: left;
   color: white;
