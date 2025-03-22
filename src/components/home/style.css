@@ -226,17 +226,17 @@ tr:hover {
 
 .seo-made-easy-wrapper {
   text-align: center;
-  width: 546px;
+  min-width: 546px;
   margin: 0 auto;
   margin-bottom: 72px;
 }
 
 .seo-made-easy-heading {
-  font-size: 72px;
+  font-size: 120px;
   font-family: "Rubik Maps", system-ui;
   font-weight: 400;
   line-height: 86.4px;
-  text-align: left;
+  text-align: center;
   color: white;
   text-align: center;
   white-space: nowrap;
@@ -1952,6 +1952,7 @@ li {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
   animation: pulse 2s infinite;
   margin: 5%;
+  backdrop-filter: blur(8px);
 }
 
 .promo-close {

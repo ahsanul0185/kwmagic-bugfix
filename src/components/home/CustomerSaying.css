@@ -63,15 +63,17 @@
 }
 
 .avatar {
-  width: 50px;
+  width: 45px;
   aspect-ratio: 1/1;
+  object-fit: cover;
   display: block;
-  margin-top: 1.5px;
 }
 
 .avatar-container {
   position: relative;
   display: inline-block;
+  aspect-ratio: 1/1;
+  /* background-color: red; */
 }
 
 .avatar-container::before {

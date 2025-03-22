@@ -2,9 +2,9 @@ import React from "react";
 import Slider from "react-slick";
 import "./CustomerSaying.css";
 
-import AvatarOne from "../../assets/Avatar.png";
-import AvatarTwo from "../../assets/Avatar-2.png";
-import AvatarThree from "../../assets/Avatar-3.png";
+import AvatarOne from "../../assets/avatar_1.png";
+import AvatarTwo from "../../assets/avatar_2.png";
+import AvatarThree from "../../assets/avatar_3.png";
 import Quotes from "../../assets/Quote.svg";
 
 function CustomerSaying() {

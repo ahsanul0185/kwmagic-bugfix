@@ -68,6 +68,7 @@
   max-height: 550px; /* Limit the height to show only 3 items */
   padding: 10px 0;
   gap: 10px;  /* Space between items */
+  scrollbar-width: none;
   -webkit-overflow-scrolling: touch;
   mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 10%, rgba(0, 0, 0, 1) 50%, rgba(0, 0, 0, 0) 90%);
   -webkit-mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 10%, rgba(0, 0, 0, 1) 50%, rgba(0, 0, 0, 0) 90%); /* For Safari */
