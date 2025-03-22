@@ -73,7 +73,7 @@ function CustomerSaying() {
                 “Love how easy it is to use, hope to see more features in the future"
               </p>
               <div className="feedback-info-container">
-                <div class="avatar-container"><img class="avatar" src={AvatarTwo} alt="Customer Avatar" /></div>
+                <div class="avatar-container"><img class="avatar avatar-1" src={AvatarTwo} alt="Customer Avatar" /></div>
                 <div>
                   <p className="feedback-name">Barbara</p>
                   <p className="feedback-occupation">SEO Strategist, United States</p>
@@ -87,7 +87,7 @@ function CustomerSaying() {
                 “Saved a lot of time I would have spent on manual keyword research, wish there was a free version”
               </p>
               <div className="feedback-info-container">
-              <div class="avatar-container"><img class="avatar" src={AvatarOne} alt="Customer Avatar" /></div>
+              <div class="avatar-container"><img class="avatar avatar-2" src={AvatarOne} alt="Customer Avatar" /></div>
                 <div>
                   <p className="feedback-name">William</p>
                   <p className="feedback-occupation">SEO Manager, Sweden</p>
@@ -101,7 +101,7 @@ function CustomerSaying() {
                 “100% worth the price! If you have a monetized site, I have no doubt you'll be able to earn the money back”
               </p>
               <div className="feedback-info-container">
-              <div class="avatar-container"><img class="avatar" src={AvatarThree} alt="Customer Avatar" /></div>
+              <div class="avatar-container"><img class="avatar avatar-3" src={AvatarThree} alt="Customer Avatar" /></div>
                 <div>
                   <p className="feedback-name">Angeliki</p>
                   <p className="feedback-occupation">Web Developer, Cyprus</p>

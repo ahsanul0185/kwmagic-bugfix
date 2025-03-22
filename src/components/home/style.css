@@ -206,7 +206,7 @@ table tr td {
 }
 
 .keyword-section-wrapper {
-  width: 58%;
+  width: 62%;
   min-width: 830px;
   margin: 0 auto;
   position: relative;
@@ -226,7 +226,7 @@ tr:hover {
 
 .seo-made-easy-wrapper {
   text-align: center;
-  min-width: 546px;
+  /* min-width: 446px; */
   margin: 0 auto;
   margin-bottom: 72px;
 }
@@ -240,6 +240,8 @@ tr:hover {
   color: white;
   text-align: center;
   white-space: nowrap;
+
+  /* background-color: red; */
 }
 
 .seo-made-easy-description {
@@ -1387,6 +1389,9 @@ li {
 /* Media Queries  */
 
 @media (max-width: 1380px) {
+  .seo-made-easy-heading{
+    font-size: 96px;
+  }
   .compare-keyword-table-container table th {
     padding: 13px 16px;
   }
@@ -1504,7 +1509,7 @@ li {
     width: 95% !important;
   }
   .seo-made-easy-heading {
-    font-size: 52px;
+    font-size: 82px;
     line-height: 68.4px;
   }
   .seo-made-easy-description {
@@ -1649,7 +1654,7 @@ li {
     margin-bottom: 52px;
   }
   .seo-made-easy-heading {
-    font-size: 32px;
+    font-size: 52px;
     line-height: 41px;
   }
   .seo-made-easy-description {
@@ -1796,6 +1801,9 @@ li {
 }
 
 @media (max-width: 610px) {
+  .seo-made-easy-heading{
+    font-size: 42px;
+  }
   table th,
   table tr td {
     padding: 8px;

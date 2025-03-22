@@ -69,6 +69,22 @@
   display: block;
 }
 
+.avatar-1 {
+  margin-top: 2.1px;
+  transform: scale(0.96);
+}
+
+.avatar-2 {
+  transform: scale(0.95);
+  margin-top: 1px;
+}
+
+.avatar-3 {
+  margin-bottom: 3px;
+  transform: scale(0.93);
+}
+
+
 .avatar-container {
   position: relative;
   display: inline-block;
