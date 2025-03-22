@@ -75,12 +75,12 @@
 }
 
 .avatar-2 {
-  transform: scale(0.95);
+  transform: scale(0.96);
   margin-top: 1px;
 }
 
 .avatar-3 {
-  margin-bottom: 3px;
+  margin-bottom: 4px;
   transform: scale(0.93);
 }
 
