@@ -14,14 +14,6 @@ const SearchKeyword = () => {
         <div className="search-bar-container">
           <div data-aos="fade" data-aos-once="true">
           <img className="search-bar-arrow" src={arrow} alt="" />
-
-
-          
-
-
-
-
-
           </div>
           <SearchBar />
         </div>

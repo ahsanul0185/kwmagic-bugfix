@@ -20,7 +20,7 @@ const AuthProvider = ({ children }) => {
       setUsername(user.username);
       setUserIdentifier(user.userIdentifier);
     } else {
-      setIsLoggedIn(true);
+      setIsLoggedIn(false);
     }
 
     setLoading(false); // Authentication check is done

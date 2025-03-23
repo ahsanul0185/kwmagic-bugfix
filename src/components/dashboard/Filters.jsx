@@ -88,7 +88,7 @@ const Filters = ({
     onToggleFilters(newFilterState);
   };
 
-  // if (!isVisible) return null;
+  if (!isVisible) return null;
 
   return (
     <div className="filters-container">
