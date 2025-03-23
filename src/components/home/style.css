@@ -84,7 +84,7 @@ th:not(:first-child) div {
     table-layout: auto; 
   }
 
-  .kw-table-wrapper {
+  .ios-device .kw-table-wrapper {
     overscroll-behavior: none;
   }
 
