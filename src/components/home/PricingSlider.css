@@ -46,7 +46,7 @@
     transform: scale(0.75);
     opacity: 0.8;
   }
-  .slick-prev:focus {
+  .slick-prev:hover {
     opacity: 1;
   }
   .slick-next:hover {
