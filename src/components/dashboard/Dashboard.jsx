@@ -370,7 +370,7 @@ function Dashboard() {
         <SearchList onSearchClick={handleSearchClick} refresh={refreshSearchList} />
         {loading && <div className="loader-box"><div className="loader"></div><p className="loading-info">Looking for data, this may take up to 60 seconds</p></div>}
         {!loading && !data && (<div className="welcome-message" data-aos="fade">{Subscription === "Trial" ? "Trial plan is limited to 3 queries per day, upgrade for unlimited searches" : "Begin a new search by typing in one or more comma-separated keywords above"}</div>)}
-        {!loading && data &&(
+        {(
           <KeywordTable
             showTableInfo={true}
             keywordData={data}

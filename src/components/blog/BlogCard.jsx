@@ -1,9 +1,12 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom'
 
-const BlogCard = ({img, title, description}) => {
+const BlogCard = ({id, img, title, description}) => {
+
+    const navigate = useNavigate();
 
     return (
-        <div className='insight-card'>
+        <div onClick={() => navigate(`/blog/${id}`)} className='insight-card'>
             <div className='insight-card-image'>
             <img src={img} alt="" />
             </div>

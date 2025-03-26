@@ -9,7 +9,7 @@ function KeywordSection() {
         <p className="seo-made-easy-heading" data-aos="fade-up" data-aos-once="true">SEO Made Easy</p>
         <h1 className="seo-made-easy-description" data-aos="fade" data-aos-delay={600}>Instantly find thousands of valuable keywords from a single search</h1>
       </div>
-      <KeywordTable headColor="#fff" showTableInfo={false}></KeywordTable>
+      <KeywordTable headColor="#fff" showTableInfo={false} Subscription={"PRO"}></KeywordTable>
       <p className="keyword-caution">
         <svg
           width="20"

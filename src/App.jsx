@@ -20,6 +20,7 @@ import PaymentCancel from "./components/PaymentCancel";
 import AuthProvider from './contexts/AuthContext';
 import NotFound from "./components/NotFound";
 import Blogs from './components/blog/Blogs';
+import SingleBlog from './components/blog/SingleBlog';
 
 function App() {
   useEffect(() => {
@@ -39,6 +40,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/blogs" element={<Blogs />} />
+            <Route path="/blog/:id" element={<SingleBlog />} />
             <Route path="/legal" element={<Legal />} />
             <Route path="/login" element={<Login />} />
             <Route path="/signup" element={<Signup />} />

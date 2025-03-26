@@ -255,6 +255,23 @@
   .log-in-out-wrapper {
     height: 40px;
   }
+  .fade-username {
+    white-space: nowrap;
+    max-width: 85px;
+    display: inline-block;
+    -webkit-mask: linear-gradient(
+      to right,
+      white 0%,
+      white 75%,
+      transparent
+    );
+    mask: linear-gradient(
+      to right,
+      white 0%,
+      white 75%,
+      transparent
+    );
+  }
 }
 
 .credits-wrapper {

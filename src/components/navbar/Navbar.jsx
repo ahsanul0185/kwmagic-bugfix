@@ -8,7 +8,11 @@ function Navbar() {
   const [isMobileView, setMobileView] = useState(window.innerWidth <= 1012);
   const location = useLocation();
   const navigate = useNavigate();
-  const { isLoggedIn, logout, Subscription, username, userIdentifier } = useContext(AuthContext);
+  const { isLoggedIn, logout, Subscription, usernamea, userIdentifier } = useContext(AuthContext);
+  const username  = "Ahsanul Haque"
+  const [displayName, setDisplayName] = useState(username)
+
+  
 
   const handleResize = () => {
     setMobileView(window.innerWidth <= 1012);
@@ -62,6 +66,11 @@ function Navbar() {
     };
   }, []);
 
+  useEffect(() => {
+    isMobileView ? setDisplayName(prev => prev.split(" ")[0]) : setDisplayName(username);
+  }, [isMobileView]);
+
+
   const handleSubscriptionClick = () => {
     if (Subscription === "PRO") {
       window.location.href = "https://billing.stripe.com/p/login/14k4hN4LW3Gg4Ss144";
@@ -86,7 +95,7 @@ function Navbar() {
           <div className="nav-logo"><span>KeywordMagic</span> ✨</div>
         ) : (
             <p className="hello-head">
-            Hello <span>{username}!</span>
+            Hello <span className={displayName.length > 10 ? "fade-username" : ""}>{displayName}!</span>
           </p>
         )}
         <svg
